@@ -6,9 +6,9 @@ export default {
             animation: {
                 "spin-slow": "spin 25s linear infinite",
                 "infinite-slider-r-to-l":
-                    "infiniteSliderRtoL 30s linear infinite",
+                    "infiniteSliderRtoL 40s linear infinite",
                 "infinite-slider-l-to-r":
-                    "infiniteSliderLtoR 30s linear infinite",
+                    "infiniteSliderLtoR 40s linear infinite",
             },
             keyframes: {
                 infiniteSliderRtoL: {
@@ -25,6 +25,9 @@ export default {
                         transform: "translate3d(0, 0, 0)",
                     },
                 },
+            },
+            fontFamily: {
+                luxury: ["Libre Caslon Display", "serif"],
             },
         },
     },

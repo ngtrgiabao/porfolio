@@ -4,11 +4,16 @@
 
 :root {
     --primary-color: #0500ff;
+    --primary-color-light: #9c9bf1;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
     overflow-x: hidden;
-    height: 200vh;
+    height: 500vh;
 }
 
 .underline-animate:hover {

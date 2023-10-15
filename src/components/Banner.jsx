@@ -9,21 +9,18 @@ const Banner = ({ avatar }) => {
                 src={FRAME}
                 loading="lazy"
                 role="presentation"
-                decoding="async"
                 className="absolute -left-24 top-10 w-[223px] h-[360px]"
             />
             <img
                 src={MINI_BANNER}
                 loading="lazy"
                 role="presentation"
-                decoding="async"
                 className="absolute -right-24 -bottom-72 h-[500px]"
             />
             <img
                 src={TEXT_CIRCLE}
                 loading="lazy"
                 role="presentation"
-                decoding="async"
                 className="absolute -left-24 -bottom-36 w-[300px] h-[300px] animate-spin-slow"
             />
             <div className="flex items-center flex-col mb-36 w-1/2">
@@ -42,7 +39,7 @@ const Banner = ({ avatar }) => {
                         web developer
                     </span>
                     <span className="text-lg font-thin mt-10 text-justify">
-                        Hello! I am a Web Developer with 1.5 years experience.
+                        Hello👋! I am a Web Developer with 1.5 years experience.
                         My passion for programming and software engineering
                         constantly drives me to explore new technologies and
                         programming languages. Staying updated with the latest
