@@ -1,3 +1,5 @@
+@import "./_font.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,6 +7,7 @@
 :root {
     --primary-color: #0500ff;
     --primary-color-light: #9c9bf1;
+    --primary-bg-color: rgba(245, 242, 238, 0.466);
 }
 
 html {
@@ -13,7 +16,8 @@ html {
 
 body {
     overflow-x: hidden;
-    height: 500vh;
+    background: var(--primary-bg-color);
+    /* height: 500vh; */
 }
 
 .underline-animate:hover {

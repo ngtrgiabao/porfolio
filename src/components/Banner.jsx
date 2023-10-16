@@ -15,7 +15,7 @@ const Banner = ({ avatar }) => {
                 src={MINI_BANNER}
                 loading="lazy"
                 role="presentation"
-                className="absolute -right-24 -bottom-72 h-[500px]"
+                className="absolute -right-24 -bottom-72 w-[557px] h-[500px]"
             />
             <img
                 src={TEXT_CIRCLE}
@@ -29,10 +29,10 @@ const Banner = ({ avatar }) => {
                     loading="lazy"
                     role="presentation"
                     decoding="async"
-                    className="w-5/12 rounded-full"
+                    className="w-4/12 rounded-full"
                 />
                 <div className="flex flex-col items-center">
-                    <span className="uppercase text-4xl font-bold mb-2 -mt-10">
+                    <span className="uppercase text-4xl font-bold mb-2 mt-2">
                         nguyen tran gia bao
                     </span>
                     <span className="uppercase text-xl font-thin">

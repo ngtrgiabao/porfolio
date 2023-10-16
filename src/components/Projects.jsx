@@ -4,7 +4,6 @@ import SocialBtn from "./common/socialBtn";
 import VisitBtn from "./common/VisitBtn";
 
 import "swiper/css";
-import "./projects.css";
 
 import YANJI_SOCIAL from "../assets/yanji-social.jpg";
 import GITHUB_ICON from "../assets/github.svg";
@@ -23,9 +22,9 @@ const Projects = () => {
                 navigation
                 pagination={{ clickable: true }}
                 scrollbar={{ draggable: true }}
-                className="h-full w-screen mt-8"
+                className="h-full w-screen mt-8  bg-[#3632f8]/5"
             >
-                <SwiperSlide className="w-full h-full flex items-center pt-20 relative bg-[#3632f8]/5 flex-col cursor-grab">
+                <SwiperSlide className="w-full h-full flex items-center pt-20 relative flex-col cursor-grab bg-fixed">
                     <span className="uppercase absolute top-[40%] -translate-y-1/2 -translate-x-1/2 left-1/2 text-[13rem] font-luxury w-max text-black/10">
                         meet with us
                     </span>
@@ -38,7 +37,7 @@ const Projects = () => {
                             icon={GITHUB_ICON}
                         />
                     </div>
-                    <div className="object-cover w-[59%] h-max">
+                    <div className="object-cover w-[59%] h-max shadow-2xl">
                         <img
                             src="https://user-images.githubusercontent.com/95952006/232206701-c69d960b-015d-4a39-a2e8-fdea93f1c35b.png"
                             alt=""
@@ -46,7 +45,7 @@ const Projects = () => {
                     </div>
                     <VisitBtn url="https://meet-with-us.netlify.app/" />
                 </SwiperSlide>
-                <SwiperSlide className="w-full h-full flex items-center pt-20 relative bg-[#3632f8]/5 flex-col cursor-grab">
+                <SwiperSlide className="w-full h-full flex items-center pt-20 relative flex-col cursor-grab bg-fixed">
                     <span className="uppercase absolute top-[40%] -translate-y-1/2 -translate-x-1/2 left-1/2 text-[13rem] font-luxury w-max text-black/10">
                         yanji social
                     </span>
@@ -59,7 +58,7 @@ const Projects = () => {
                             icon={GITHUB_ICON}
                         />
                     </div>
-                    <div className="object-cover w-[50%] h-max opacity-95">
+                    <div className="object-cover w-[50%] h-max opacity-95 shadow-2xl">
                         <img src={YANJI_SOCIAL} alt="" />
                     </div>
                     <VisitBtn url="https://yanji-social.vercel.app/" />

@@ -32,7 +32,7 @@ const Navbar = ({ logo }) => {
                         </a>
                     </li>
                     <li className="uppercase w-max underline-animate relative text-lg font-thin">
-                        <a href="" className="">
+                        <a href="#contact" className="">
                             contact
                         </a>
                     </li>

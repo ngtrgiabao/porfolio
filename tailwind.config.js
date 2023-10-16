@@ -28,7 +28,12 @@ export default {
             },
             fontFamily: {
                 luxury: ["Libre Caslon Display", "serif"],
+                trispace: ["Trispace", "sans-serif"],
             },
+            fontSize: {
+                xxxl: "200px",
+            },
+            fontWeight: {},
         },
     },
     plugins: [],
