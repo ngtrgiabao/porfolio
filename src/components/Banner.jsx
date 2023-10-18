@@ -39,12 +39,18 @@ const Banner = ({ avatar }) => {
                         web developer
                     </span>
                     <span className="text-lg font-thin mt-10 text-justify">
-                        Hello👋! I am a Web Developer with 1.5 years experience.
-                        My passion for programming and software engineering
-                        constantly drives me to explore new technologies and
-                        programming languages. Staying updated with the latest
-                        advancements is crucial for a successful career as a web
-                        developer.
+                        Hello👋! I am a{" "}
+                        <span className=" relative after:absolute after:top-0 after:-z-10 after:left-0 after:w-full after:h-full after:bg-blue-700 font-bold p-1 text-white after:-skew-y-[3deg] mr-2">
+                            Web Developer
+                        </span>
+                        with 1.5 years experience. My passion for programming
+                        and software engineering constantly drives me to explore
+                        new technologies
+                        <span className="mt-2">
+                            and programming languages. Staying updated with the
+                            latest advancements is crucial for a successful
+                            career as a web developer.
+                        </span>
                     </span>
                 </div>
             </div>

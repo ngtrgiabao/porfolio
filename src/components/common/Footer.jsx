@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div
             id="contact"
-            className="flex justify-center flex-col items-center h-screen py-10"
+            className="flex justify-center flex-col items-center h-screen py-5"
         >
             <div className="h-1/2 grid grid-cols-3 w-full gap-4">
                 <div className="border-y-[1px] border-y-black relative after:absolute after:h-full after:w-[1px] after:bg-black after:-right-2 after:top-0 flex justify-center items-center">
@@ -68,14 +68,14 @@ const Footer = () => {
                     <span>i</span>
                 </span>
                 <div className="flex text-sm justify-between">
-                    <div>©2023 ngtrgiabao - yanji</div>
-                    <div>#WEB</div>
-                    <div>#FRONTEND</div>
-                    <div>#BACKEND</div>
-                    <div>#UI/UX</div>
-                    <div> #DEVELOPER</div>
-                    <div>#CONTENT</div>
-                    <div>#CODING</div>
+                    <span>©2023 ngtrgiabao - yanji</span>
+                    <span>#WEB</span>
+                    <span>#FRONTEND</span>
+                    <span>#BACKEND</span>
+                    <span>#UI/UX</span>
+                    <span>#DEVELOPER</span>
+                    <span>#CONTENT</span>
+                    <span>#CODING</span>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ import "./_visitBtn.css";
 
 const VisitBtn = ({ url }) => {
     return (
-        <div className="wrapper flex items-center mt-3">
+        <div className="wrapper flex items-center mt-8">
             <a className="cta" href={url} target="_blank" rel="noreferrer">
                 <span>VISIT NOW</span>
                 <span>

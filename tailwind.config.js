@@ -1,4 +1,8 @@
+// eslint-disable-next-line no-undef
+const plugin = require("tailwindcss/plugin");
+
 /** @type {import('tailwindcss').Config} */
+
 export default {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
@@ -29,6 +33,7 @@ export default {
             fontFamily: {
                 luxury: ["Libre Caslon Display", "serif"],
                 trispace: ["Trispace", "sans-serif"],
+                saira: ["Saira Stencil One", "sans-serif"],
             },
             fontSize: {
                 xxxl: "200px",
@@ -36,5 +41,9 @@ export default {
             fontWeight: {},
         },
     },
-    plugins: [],
+    plugins: [
+        plugin(({ addComponents }) => {
+            addComponents({});
+        }),
+    ],
 };
