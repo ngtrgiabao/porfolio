@@ -6,7 +6,8 @@ import AVATAR from "../assets/avatar.png";
 
 import Projects from "../components/Projects";
 import Footer from "../components/common/Footer";
-import MyStory from "../components/MyStory";
+import AboutMe from "../components/AboutMe";
+import MySkills from "../components/MySkills";
 
 const HomePage = () => {
     return (
@@ -14,7 +15,8 @@ const HomePage = () => {
             <Navbar logo={LOGO} />
             <Banner avatar={AVATAR} />
             <Projects />
-            <MyStory />
+            <AboutMe />
+            <MySkills />
             <Footer />
             {/* <DownloadBtn label={"test"} filename={MyCV} /> */}
         </div>

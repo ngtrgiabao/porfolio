@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 :root {
-    --primary-color: #0500ff;
+    --primary-color: #655cdf;
     --primary-color-light: #9c9bf1;
     --primary-bg-color: rgba(245, 242, 238, 0.466);
 }

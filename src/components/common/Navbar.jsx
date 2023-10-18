@@ -29,16 +29,16 @@ const Navbar = ({ logo }) => {
                         my work
                     </a>
                     <a
-                        href=""
+                        href="#myskills"
                         className="uppercase w-max underline-animate relative text-lg font-thin"
                     >
-                        knowledge
+                        my skills
                     </a>
                     <a
-                        href="#mystory"
+                        href="#aboutme"
                         className="uppercase w-max underline-animate relative text-lg font-thin"
                     >
-                        my story
+                        about me
                     </a>
                     <a
                         href="#contact"
