@@ -31,8 +31,8 @@ const MySkills = () => {
             <span className="absolute w-[1px] h-[90%] left-5 top-1/2 -translate-y-1/2 bg-white after:absolute after:bottom-0 after:w-[4px] after:h-40 after:bg-purple-200 after:left-1/2 after:-translate-x-1/2"></span>
             <span className="absolute w-[1px] h-[90%] right-10 top-1/2 -translate-y-1/2 bg-white after:absolute after:top-0 after:w-[4px] after:h-40 after:bg-purple-200 after:left-1/2 after:-translate-x-1/2"></span>
             <span className="absolute w-32 h-32 left-10 top-10 border-[1px] border-white">
-                <span className="absolute bottom-4 -right-3 w-10 h-10 border-[1px] border-white"></span>
-                <span className="absolute top-3 left-3 w-4 h-4 border-[1px] bg-white"></span>
+                <span className="absolute top-3 left-3 w-6 h-6 border-[1px] bg-white"></span>
+                <span className="absolute bottom-4 -right-3 w-16 h-16 border-[1px] border-white"></span>
             </span>
 
             <div className="w-full h-full grid grid-cols-2 px-10">
