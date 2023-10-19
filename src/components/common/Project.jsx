@@ -1,4 +1,4 @@
-import SocialBtn from "./socialBtn";
+import SocialBtn from "./SocialBtn";
 import VisitBtn from "./VisitBtn";
 
 const Project = ({
