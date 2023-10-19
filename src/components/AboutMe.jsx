@@ -5,7 +5,7 @@ import "./_aboutMe.css";
 
 const AboutMe = () => {
     return (
-        <div id="aboutme" className="mb-5 h-screen py-5">
+        <div id="aboutme" className="h-screen py-5">
             <span className="relative after:absolute after:w-[50%] after:h-[1px] after:top-1/2  after:-left-40 after:bg-black after:-translate-y-1/2 ml-36  text-5xl uppercase font-luxury">
                 about me
             </span>
@@ -16,7 +16,7 @@ const AboutMe = () => {
                         alt=""
                         className="h-full z-10 w-min cover1"
                     />
-                    <div className="absolute w-3/12 opacity-20 -z-[1] left-8 top-36">
+                    <div className="absolute w-3/12 opacity-20 -z-[1] left-5 top-[23%]">
                         <img src={LOGO} alt="" />
                     </div>
                     <span className="absolute bg-blue-200 z-10 right-10 bottom-16 w-32 h-7"></span>

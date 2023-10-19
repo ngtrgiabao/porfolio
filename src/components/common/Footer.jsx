@@ -1,10 +1,11 @@
 import LOGO from "../../assets/logo.svg";
+import EmailBtn from "../../utils/EmailBtn";
 
 const Footer = () => {
     return (
         <div
             id="contact"
-            className="flex justify-center flex-col items-center h-screen py-5"
+            className="flex justify-center flex-col items-center h-screen pb-14 pt-10 mb-8"
         >
             <div className="h-1/2 grid grid-cols-3 w-full gap-4">
                 <div className="border-y-[1px] border-y-black relative after:absolute after:h-full after:w-[1px] after:bg-black after:-right-2 after:top-0 flex justify-center items-center">
@@ -12,7 +13,7 @@ const Footer = () => {
                         <img src={LOGO} alt="" />
                     </div>
                 </div>
-                <div className="border-y-[1px] border-y-black col-span-2 p-8 flex flex-col justify-between">
+                <div className="border-y-[1px] border-y-black col-span-2 p-16 flex flex-col justify-between">
                     <div className="flex justify-between">
                         <div className="flex flex-col">
                             <span className="uppercase text-lg font-extralight">
@@ -43,6 +44,17 @@ const Footer = () => {
                             >
                                 github
                             </a>
+                            <a
+                                href="#"
+                                onClick={(e) => {
+                                    window.location.href =
+                                        "ngtrgiabao251002@gmail.com";
+                                    e.preventDefault();
+                                }}
+                                className="hover:opacity-75"
+                            >
+                                Book me now
+                            </a>
                         </div>
                         <div className="flex items-center ms-[32.5%]">
                             <div className="flex flex-col mr-10 font-trispace">
@@ -59,7 +71,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-full h-1/2 px-8">
+            <div className="w-full h-1/2 px-8 flex flex-col justify-center relative">
                 <span className="text-xxxl uppercase flex justify-between font-trispace">
                     <span>y</span>
                     <span>a</span>
@@ -77,6 +89,11 @@ const Footer = () => {
                     <span>#CONTENT</span>
                     <span>#CODING</span>
                 </div>
+
+                <EmailBtn
+                    label="Book me now"
+                    mailto="mailto:ngtrgiabao251002@gmail.com"
+                />
             </div>
         </div>
     );

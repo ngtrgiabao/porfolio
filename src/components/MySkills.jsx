@@ -21,37 +21,58 @@ const MySkills = () => {
     return (
         <div
             id="myskills"
-            className="h-screen w-screen mb-5 bg-fixed relative p-11 pr-16 flex justify-center items-center bg-black"
+            className="h-screen w-screen my-8 bg-fixed relative p-11 pr-16 flex justify-center items-center bg-black"
             style={{
                 backgroundImage: `url(${ROBOT})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
             }}
         >
-            <span className="absolute w-[1px] h-[90%] left-5 top-1/2 -translate-y-1/2 bg-white after:absolute after:bottom-0 after:w-[4px] after:h-40 after:bg-purple-200 after:left-1/2 after:-translate-x-1/2"></span>
-            <span className="absolute w-[1px] h-[90%] right-10 top-1/2 -translate-y-1/2 bg-white after:absolute after:top-0 after:w-[4px] after:h-40 after:bg-purple-200 after:left-1/2 after:-translate-x-1/2"></span>
-            <span className="absolute w-32 h-32 left-10 top-10 border-[1px] border-white">
-                <span className="absolute top-3 left-3 w-6 h-6 border-[1px] bg-white"></span>
+            {/* side bar 1*/}
+            <span className="absolute w-[1px] h-[90%] left-5 top-1/2 -translate-y-1/2 bg-white after:absolute after:bottom-0 after:w-[4px] after:h-40 after:bg-purple-500 after:border after:border-white after:left-1/2 after:-translate-x-1/2"></span>
+            {/* side bar 2*/}
+            <span className="absolute w-[1px] h-[90%] right-10 top-1/2 -translate-y-1/2 bg-white after:absolute after:top-0 after:w-[4px] after:h-40 after:bg-purple-500 after:border after:border-white after:left-1/2 after:-translate-x-1/2"></span>
+
+            <span className="absolute w-40 h-40 left-10 top-10 border-[1px] border-white">
+                <span className="absolute top-3 left-3 w-8 h-8 border-[1px] bg-white"></span>
                 <span className="absolute bottom-4 -right-3 w-16 h-16 border-[1px] border-white"></span>
             </span>
 
             <div className="w-full h-full grid grid-cols-2 px-10">
                 <div className="w-full h-full flex items-end">
-                    <div className="grid grid-cols-5 grid-rows-3 gap-4 pb-12">
-                        <ProgrammingIcon logo={GIT} />
-                        <ProgrammingIcon logo={BOOTSTRAP} />
-                        <ProgrammingIcon logo={GSAP} />
-                        <ProgrammingIcon logo={JS} />
-                        <ProgrammingIcon logo={NODE} />
-                        <ProgrammingIcon logo={MONGO} />
-                        <ProgrammingIcon logo={SASS} />
-                        <ProgrammingIcon logo={REDUX} />
-                        <ProgrammingIcon logo={REACT} />
-                        <ProgrammingIcon logo={TAILWIND} />
-                        <ProgrammingIcon logo={TYPESCRIPT} />
-                        <ProgrammingIcon logo={FIREBASE} />
-                        <ProgrammingIcon logo={GITHUB} />
-                        <ProgrammingIcon logo={GITLAB} />
+                    <div className="grid grid-cols-4 grid-rows-3 gap-4 pb-12">
+                        <ProgrammingIcon logo={REACT} titleOnHover={"REACT"} />
+                        <ProgrammingIcon logo={REDUX} titleOnHover={"REDUX"} />
+                        <ProgrammingIcon logo={JS} titleOnHover={"JS"} />
+                        <ProgrammingIcon
+                            logo={TYPESCRIPT}
+                            titleOnHover={"TYPESCRIPT"}
+                        />
+                        <ProgrammingIcon logo={NODE} titleOnHover={"NODEJS"} />
+                        <ProgrammingIcon
+                            titleOnHover={"TAILWIND"}
+                            logo={TAILWIND}
+                        />
+                        <ProgrammingIcon
+                            logo={BOOTSTRAP}
+                            titleOnHover={"BOOTSTRAP"}
+                        />
+                        <ProgrammingIcon logo={SASS} titleOnHover={"SASS"} />
+                        <ProgrammingIcon logo={GSAP} titleOnHover={"GSAP"} />
+                        <ProgrammingIcon logo={MONGO} titleOnHover={"MONGO"} />
+                        <ProgrammingIcon
+                            logo={FIREBASE}
+                            titleOnHover={"FIREBASE"}
+                        />
+                        <ProgrammingIcon logo={GIT} titleOnHover={"Git"} />
+                        <ProgrammingIcon
+                            logo={GITHUB}
+                            titleOnHover={"GITHUB"}
+                        />
+                        <ProgrammingIcon
+                            logo={GITLAB}
+                            titleOnHover={"GITLAB"}
+                        />
                     </div>
                 </div>
                 <div className="w-full text-white flex flex-col">
