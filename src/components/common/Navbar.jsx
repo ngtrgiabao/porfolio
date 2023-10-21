@@ -10,11 +10,11 @@ const Navbar = ({ logo }) => {
                     role="presentation"
                     decoding="async"
                     alt="logo"
-                    className="w-[50px] h-[50px] me-3"
+                    className="lg:w-[50px] md:w-[40px] lg:h-[50px] md:h-[40px] me-3"
                 />
                 <b className="text-xl">Yanji</b>
             </div>
-            <nav className="w-1/2 ml-64">
+            <nav className="lg:w-1/2 lg:ml-64 md:w-2/3 md:ml-10">
                 <div className="flex justify-between items-center h-full">
                     <a
                         href=""
@@ -59,7 +59,7 @@ const Navbar = ({ logo }) => {
                 loading="lazy"
                 role="presentation"
                 decoding="async"
-                className="absolute -right-[12%] -top-[230%] w-[506px] h-[506px] -rotate-[40deg] -z-10"
+                className="absolute lg:-right-[12%] md:-right-44 lg:-top-[230%] md:-top-52 lg:w-[506px] lg:h-[506px] lg:-rotate-[40deg] md:w-[430px] md:h-[430px] md:rotate-[175deg] -z-10"
             />
         </div>
     );

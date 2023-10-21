@@ -37,8 +37,17 @@ export default {
             },
             fontSize: {
                 xxxl: "200px",
+                xxl: "150px",
+            },
+            boxShadow: {
+                large: "6px 6px 0 var(--primary-color-light)",
+                shadow10: "10px 10px 0 var(--yellow)",
             },
             fontWeight: {},
+            height: {
+                _50vh: "50vh",
+                _42vh: "42vh",
+            },
         },
     },
     plugins: [

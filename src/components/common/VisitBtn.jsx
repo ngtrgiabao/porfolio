@@ -2,13 +2,17 @@ import "./_visitBtn.css";
 
 const VisitBtn = ({ url }) => {
     return (
-        <div className="wrapper flex items-center mt-8">
-            <a className="cta" href={url} target="_blank" rel="noreferrer">
+        <div className="wrapper flex justify-center items-center lg:mt-8 md:mt-7">
+            <a
+                className="cta flex justify-center items-center lg:py-4 md:py-3 lg:px-9 md:px-8 no-underline lg:text-2xl text-white bg-[--primary-color-dark] shadow-large -skew-x-[15deg] focus:outline-none hover:shadow-shadow10 group/item"
+                href={url}
+                target="_blank"
+                rel="noreferrer"
+            >
                 <span>VISIT NOW</span>
-                <span>
+                <span className="mr-0 md:group-hover/item:mr-8 lg:group-hover/item:mr-11">
                     <svg
-                        width="43px"
-                        height="33px"
+                        className="lg:w-10 md:w-8 lg:h-9 md:-6"
                         viewBox="0 0 66 43"
                         version="1.1"
                         xmlns="http://www.w3.org/2000/svg"

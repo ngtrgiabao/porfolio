@@ -5,28 +5,28 @@ const Footer = () => {
     return (
         <div
             id="contact"
-            className="flex justify-center flex-col items-center h-screen pb-14 pt-10 mb-8"
+            className="flex lg:justify-center flex-col items-center w-full lg:h-screen md:h-_42vh lg:pb-12 lg:pt-10 lg:mb-8"
         >
-            <div className="h-1/2 grid grid-cols-3 w-full gap-4">
+            <div className="lg:h-1/2 grid grid-cols-3 w-full gap-4">
                 <div className="border-y-[1px] border-y-black relative after:absolute after:h-full after:w-[1px] after:bg-black after:-right-2 after:top-0 flex justify-center items-center">
                     <div className="w-1/2">
                         <img src={LOGO} alt="" />
                     </div>
                 </div>
-                <div className="border-y-[1px] border-y-black col-span-2 p-16 flex flex-col justify-between">
-                    <div className="flex justify-between">
+                <div className="border-y-[1px] border-y-black col-span-2 lg:p-16 md:py-8 md:px-6  flex flex-col justify-between">
+                    <div className="flex justify-between md:mb-5 gap-2">
                         <div className="flex flex-col">
-                            <span className="uppercase text-lg font-extralight">
+                            <span className="uppercase lg:text-lg md:text-xs font-extralight">
                                 contact me at
                             </span>
-                            <span className="uppercase font-bold text-xl font-trispace">
+                            <span className="uppercase font-bold lg:text-xl md:text-xs font-trispace">
                                 ngtrgiabao251002@gmail.com
                             </span>
                         </div>
-                        <span className="uppercase text-lg font-extralight">
+                        <span className="uppercase lg:text-lg md:text-xs font-extralight text-center">
                             looking for position
                         </span>
-                        <span className="text-center font-extrabold uppercase text-xl">
+                        <span className="text-center font-extrabold uppercase lg:text-xl md:text-xs">
                             working as <br /> a web developer
                         </span>
                     </div>
@@ -71,15 +71,16 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-full h-1/2 px-8 flex flex-col justify-center relative">
-                <span className="text-xxxl uppercase flex justify-between font-trispace">
+
+            <div className="w-full lg:h-1/2 px-8 flex flex-col lg:justify-center md:mt-5 relative">
+                <span className="lg:text-xxxl md:text-9xl uppercase flex justify-between font-trispace">
                     <span>y</span>
                     <span>a</span>
                     <span>n</span>
                     <span>j</span>
                     <span>i</span>
                 </span>
-                <div className="flex text-sm justify-between">
+                <div className="flex text-sm justify-between md:text-xs">
                     <span>©2023 ngtrgiabao - yanji</span>
                     <span>#WEB</span>
                     <span>#FRONTEND</span>

@@ -18,11 +18,11 @@ const Project = ({
                 {numberPage}
             </div>
             {linkSrcCode && (
-                <div className="uppercase absolute text-3xl top-7 left-10 font-luxury w-max">
+                <div className="absolute text-3xl top-7 left-10 w-max">
                     <SocialBtn url={linkSrcCode} icon={iconSocial} />
                 </div>
             )}
-            <div className="max-w-[60rem] h-96 shadow-2xl">
+            <div className="lg:max-w-[45rem] md:max-w-[38rem] lg:h-96 md:h-64 shadow-2xl">
                 <img
                     src={linkScreenShot}
                     className="w-full h-full object-cover"
