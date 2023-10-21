@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div
             id="contact"
-            className="flex lg:justify-center flex-col items-center w-full lg:h-screen md:h-_42vh lg:pb-12 lg:pt-10 md:mb-8 sm:mb-[20%]"
+            className="flex lg:justify-center flex-col items-center w-full lg:h-screen md:h-_42vh lg:pb-12 lg:pt-10 lg:mb-3 md:mb-5 sm:mb-[20%]"
         >
             <div className="lg:h-1/2 md:grid grid-cols-3 w-full gap-4">
                 <div className="md:border-y-[1px] md:border-y-black relative after:absolute after:h-full after:w-[1px] after:bg-black after:-right-2 after:top-0 flex justify-center items-center">

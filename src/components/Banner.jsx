@@ -29,18 +29,20 @@ const Banner = ({ avatar }) => {
                     </span>
                     <span className="lg:text-lg md:text-sm sm:text-xs font-thin lg:mt-10 md:mt-4 text-justify sm:hidden md:inline">
                         Hello👋! I am a{" "}
-                        <span className=" relative after:absolute after:top-0 after:-z-10 after:left-0 after:w-full after:h-full after:bg-blue-700 font-bold p-1 text-white after:-skew-y-[3deg] mr-2">
+                        <a
+                            href="https://en.wikipedia.org/wiki/Web_developer"
+                            className=" relative after:absolute after:top-0 after:-z-10 after:left-0 after:w-full after:h-full after:bg-blue-700 font-bold p-1 text-white after:-skew-y-[3deg] mr-2"
+                        >
                             Web Developer
-                        </span>
+                        </a>
                         <span>
                             with 1.5 years experience. My passion for
                             programming and software engineering constantly
                             drives me to explore new technologies
                         </span>
                         <span className="mt-2">
-                            Staying updated with the
-                            latest advancements is crucial for a successful
-                            career as a web developer.
+                            Staying updated with the latest advancements is
+                            crucial for a successful career as a web developer.
                         </span>
                     </span>
                 </div>
