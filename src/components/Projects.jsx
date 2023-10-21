@@ -9,8 +9,8 @@ import Project from "./common/Project";
 
 const Projects = () => {
     return (
-        <div className="lg:h-screen md:h-1/2 overflow-hidden my-10" id="mywork">
-            <span className="relative after:absolute after:w-[50%] after:h-[1px] after:top-1/2  after:-left-40 after:bg-black after:-translate-y-1/2 ml-36 text-5xl uppercase font-luxury">
+        <div className="lg:h-screen md:h-1/2 sm:h-[60vh] overflow-hidden md:my-10 sm:my-4" id="mywork">
+            <span className="relative after:absolute after:w-[50%] after:h-[1px] after:top-1/2 md:after:-left-40 sm:after:-left-16 after:bg-black after:-translate-y-1/2 md:ml-36 sm:ml-16 text-5xl uppercase font-luxury sm:text-2xl md:text-5xl sm:font-bold">
                 my work
             </span>
             <Swiper
@@ -20,7 +20,7 @@ const Projects = () => {
                 navigation
                 pagination={{ clickable: true }}
                 scrollbar={{ draggable: true }}
-                className="h-full w-screen mt-8  bg-blue-500/5"
+                className="h-full w-screen md:mt-8 sm:mt-4 bg-blue-500/5"
             >
                 <SwiperSlide className="w-full h-full flex items-center py-20 relative flex-col cursor-grab bg-fixed">
                     <Project

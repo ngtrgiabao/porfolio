@@ -4,7 +4,7 @@ const VisitBtn = ({ url }) => {
     return (
         <div className="wrapper flex justify-center items-center lg:mt-8 md:mt-7">
             <a
-                className="cta flex justify-center items-center lg:py-4 md:py-3 lg:px-9 md:px-8 no-underline lg:text-2xl text-white bg-[--primary-color-dark] shadow-large -skew-x-[15deg] focus:outline-none hover:shadow-shadow10 group/item"
+                className="cta flex justify-center items-center lg:py-4 sm:py-3 lg:px-9 sm:px-8 no-underline lg:text-2xl text-white bg-[--primary-color-dark] shadow-large -skew-x-[15deg] focus:outline-none hover:shadow-shadow10 group/item sm:mt-4"
                 href={url}
                 target="_blank"
                 rel="noreferrer"
@@ -12,7 +12,7 @@ const VisitBtn = ({ url }) => {
                 <span>VISIT NOW</span>
                 <span className="mr-0 md:group-hover/item:mr-8 lg:group-hover/item:mr-11">
                     <svg
-                        className="lg:w-10 md:w-8 lg:h-9 md:-6"
+                        className="lg:w-10 sm:w-8 lg:h-9 sm:h-6"
                         viewBox="0 0 66 43"
                         version="1.1"
                         xmlns="http://www.w3.org/2000/svg"

@@ -48,6 +48,12 @@ export default {
                 _50vh: "50vh",
                 _42vh: "42vh",
             },
+            screens: {
+                sm: "100px",
+            },
+            letterSpacing: {
+                lg: "2.2rem",
+            },
         },
     },
     plugins: [
