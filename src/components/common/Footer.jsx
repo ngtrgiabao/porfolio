@@ -47,12 +47,12 @@ const Footer = () => {
               <a
                 href="#"
                 onClick={(e) => {
-                  window.location.href = "ngtrgiabao251002@gmail.com";
+                  window.location.href = "mailto:ngtrgiabao251002@gmail.com";
                   e.preventDefault();
                 }}
                 className="hover:opacity-75"
               >
-                Book me now
+                Contact me now
               </a>
             </div>
             <div className="flex items-center sm:ms-8 md:ms-[32.5%]">
