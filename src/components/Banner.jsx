@@ -37,8 +37,9 @@ const Banner = ({ avatar }) => {
             </a>
             <span>
               with 1.5 years experience. My passion for programming and software
-              engineering constantly drives me to explore new technologies
+              engineering constantly drives me to explore new technologies.
             </span>
+            {" "}
             <span className="mt-2">
               Staying updated with the latest advancements is crucial for a
               successful career as a web developer.
