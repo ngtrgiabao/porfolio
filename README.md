@@ -42,31 +42,27 @@ Here's a breakdown of the folders:
 
 2. **src**: The main source code of your application.
 
-    - **components**: Reusable UI components that are not tied to a specific page or feature.
-    
-    - **containers**: Higher-level components or containers that manage the state and logic for a specific feature.
-    
-    - **domain**: Contains the core business logic of your application.
-    
-        - **models**: Data models or entities used throughout the application.
-        
-        - **repositories**: Interfaces or classes that define how data is fetched or persisted.
-    
-    - **services**: Utility services, like API communication, that interact with external systems.
+   - **components**: Reusable UI components that are not tied to a specific page or feature.
+   - **containers**: Higher-level components or containers that manage the state and logic for a specific feature.
+   - **domain**: Contains the core business logic of your application.
 
-    - **presentation**: The presentation layer, including React components and pages.
+     - **models**: Data models or entities used throughout the application.
+     - **repositories**: Interfaces or classes that define how data is fetched or persisted.
 
-        - **pages**: Top-level components for each page or route in your application.
-        
-        - **App.js**: The main entry point of your application.
+   - **services**: Utility services, like API communication, that interact with external systems.
 
-    - **application**: Use cases or application-specific logic that ties together the domain and presentation layers.
+   - **presentation**: The presentation layer, including React components and pages.
 
-        - **useCases**: Use case classes that define how features are executed.
+     - **pages**: Top-level components for each page or route in your application.
+     - **App.js**: The main entry point of your application.
 
-        - **AppRouter.js**: The routing configuration for your application.
+   - **application**: Use cases or application-specific logic that ties together the domain and presentation layers.
 
-    - **infrastructure**: Implementation details that are specific to your chosen infrastructure (e.g., external APIs).
+     - **useCases**: Use case classes that define how features are executed.
+
+     - **AppRouter.js**: The routing configuration for your application.
+
+   - **infrastructure**: Implementation details that are specific to your chosen infrastructure (e.g., external APIs).
 
 3. **utils**: General utility functions that can be used throughout your application.
 

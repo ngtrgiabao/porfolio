@@ -5,61 +5,61 @@
 @tailwind utilities;
 
 :root {
-    --primary-color: #655cdf;
-    --primary-color-dark: #6225e6;
-    --primary-color-light: #9c9bf1;
-    --primary-bg-color: rgba(245, 242, 238, 0.466);
-    --yellow: #fbc638;
+  --primary-color: #655cdf;
+  --primary-color-dark: #6225e6;
+  --primary-color-light: #9c9bf1;
+  --primary-bg-color: rgba(245, 242, 238, 0.466);
+  --yellow: #fbc638;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    overflow-x: hidden;
-    background: var(--primary-bg-color);
-    /* height: 500vh; */
+  overflow-x: hidden;
+  background: var(--primary-bg-color);
+  /* height: 500vh; */
 }
 
 .underline-animate:hover {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .underline-animate:after {
-    content: "";
+  content: "";
 
-    bottom: -5%;
-    right: 0;
+  bottom: -5%;
+  right: 0;
 
-    width: 0;
-    height: 2px;
+  width: 0;
+  height: 2px;
 
-    transition-property: width;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 500ms;
+  transition-property: width;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
 
-    background: linear-gradient(
-        to bottom right,
-        rgba(167, 167, 194, 0),
-        rgba(5, 0, 255, 1)
-    );
+  background: linear-gradient(
+    to bottom right,
+    rgba(167, 167, 194, 0),
+    rgba(5, 0, 255, 1)
+  );
 
-    position: absolute;
+  position: absolute;
 }
 
 .underline-animate:hover:after {
-    content: "";
+  content: "";
 
-    width: 100%;
+  width: 100%;
 
-    left: 0;
+  left: 0;
 
-    background: linear-gradient(
-        to bottom right,
-        rgba(167, 167, 194, 0),
-        rgba(5, 0, 255, 1)
-    );
+  background: linear-gradient(
+    to bottom right,
+    rgba(167, 167, 194, 0),
+    rgba(5, 0, 255, 1)
+  );
 
-    position: absolute;
+  position: absolute;
 }
