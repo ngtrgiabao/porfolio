@@ -1,0 +1,14 @@
+export { default as GIT } from "./git.png";
+export { default as GITLAB } from "./gitlab.png";
+export { default as GITHUB } from "./github.png";
+export { default as BOOTSTRAP } from "./bootstrap.png";
+export { default as FIREBASE } from "./firebase.png";
+export { default as GSAP } from "./gsap.png";
+export { default as JS } from "./js.png";
+export { default as MONGO } from "./mongo.png";
+export { default as NODE } from "./node.png";
+export { default as REACT } from "./react.png";
+export { default as REDUX } from "./redux.png";
+export { default as SASS } from "./sass.png";
+export { default as TAILWIND } from "./tailwind.png";
+export { default as TYPESCRIPT } from "./typescript.png";

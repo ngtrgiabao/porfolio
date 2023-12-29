@@ -1,9 +1,8 @@
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/css";
 
-import YANJI_SOCIAL from "../assets/yanji-social.jpg";
+import { YANJI_SOCIAL } from "../assets/posters";
 import GITHUB_ICON from "../assets/github.svg";
 import Project from "./common/Project";
 

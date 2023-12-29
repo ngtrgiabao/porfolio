@@ -1,21 +1,22 @@
-import ROBOT from "../assets/robot-with-bg.svg";
+import { ROBOT_WITH_BG } from "../assets/imges";
 import MYWEBSKILL from "../assets/my-web-skill.svg";
 import ProgrammingIcon from "./ProgrammingIcon";
-
-import GIT from "../assets/programming-icon/git.png";
-import BOOTSTRAP from "../assets/programming-icon/bootstrap.png";
-import FIREBASE from "../assets/programming-icon/firebase.png";
-import GITLAB from "../assets/programming-icon/gitlab.png";
-import GITHUB from "../assets/programming-icon/github.png";
-import GSAP from "../assets/programming-icon/gsap.png";
-import JS from "../assets/programming-icon/js.png";
-import MONGO from "../assets/programming-icon/mongo.png";
-import NODE from "../assets/programming-icon/node.png";
-import REACT from "../assets/programming-icon/react.png";
-import REDUX from "../assets/programming-icon/redux.png";
-import SASS from "../assets/programming-icon/sass.png";
-import TAILWIND from "../assets/programming-icon/tailwind.png";
-import TYPESCRIPT from "../assets/programming-icon/typescript.png";
+import {
+  GIT,
+  GITHUB,
+  GITLAB,
+  BOOTSTRAP,
+  FIREBASE,
+  GSAP,
+  JS,
+  MONGO,
+  NODE,
+  REACT,
+  REDUX,
+  SASS,
+  TAILWIND,
+  TYPESCRIPT,
+} from "../assets/programming-icons";
 
 const MySkills = () => {
   return (
@@ -23,7 +24,7 @@ const MySkills = () => {
       id="myskills"
       className="lg:h-screen sm:h-_50vh w-screen md:my-8 sm:mb-4 bg-fixed relative md:p-11 flex justify-center items-center bg-black overflow-hidden after:absolute after:inset-0 after:bg-black-20 afteR:z-10"
       style={{
-        backgroundImage: `url(${ROBOT})`,
+        backgroundImage: `url(${ROBOT_WITH_BG})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -46,7 +47,7 @@ const MySkills = () => {
             <ProgrammingIcon logo={JS} titleOnHover={"JS"} />
             <ProgrammingIcon logo={TYPESCRIPT} titleOnHover={"TYPESCRIPT"} />
             <ProgrammingIcon logo={NODE} titleOnHover={"NODEJS"} />
-            <ProgrammingIcon titleOnHover={"TAILWIND"} logo={TAILWIND} />
+            <ProgrammingIcon logo={TAILWIND} titleOnHover={"TAILWIND"} />
             <ProgrammingIcon logo={BOOTSTRAP} titleOnHover={"BOOTSTRAP"} />
             <ProgrammingIcon logo={SASS} titleOnHover={"SASS"} />
             <ProgrammingIcon logo={GSAP} titleOnHover={"GSAP"} />
@@ -63,8 +64,8 @@ const MySkills = () => {
           </div>
           <div className="lg:w-2/3 text-justify lg:text-md md:text-xs relative after:absolute lg:after:w-[30rem] md:after:w-[110%] after:h-[1px] after:bg-white after:-top-4 after:right-0 md:inline sm:hidden">
             Every day, I practice to improve my skills and widen my knowledge.
-            It is a journey that fuels my ambition, driving me to new heights
-            and become the best version of myself.
+            It is a journey that fuels my ambition, drives me to new heights,
+            and helps me become the best version of myself.
           </div>
         </div>
       </div>

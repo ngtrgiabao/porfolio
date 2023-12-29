@@ -1,8 +1,7 @@
+import { LOGO, AVATAR } from "../assets/imges";
+
 import Banner from "../components/Banner";
 import Navbar from "../components/common/Navbar";
-
-import LOGO from "../assets/logo.svg";
-import AVATAR from "../assets/avatar.png";
 
 import Projects from "../components/Projects";
 import Footer from "../components/common/Footer";
