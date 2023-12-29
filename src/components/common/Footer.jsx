@@ -1,4 +1,4 @@
-import LOGO from "../../assets/logo.svg";
+import { LOGO } from "../../assets/imges";
 import EmailBtn from "../../utils/EmailBtn";
 
 const Footer = () => {
