@@ -1,4 +1,4 @@
-import { Y_WHITE, COVER1 } from "../assets/images"
+import { Y_WHITE, COVER1 } from "../assets/images";
 
 const AboutMe = () => {
   return (
