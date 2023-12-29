@@ -1,5 +1,4 @@
-import COVER_1 from "../assets/cover1.svg";
-import LOGO from "../assets/y-white.svg";
+import {LOGO, COVER1} from "../assets/imges"
 
 const AboutMe = () => {
   return (
@@ -10,7 +9,7 @@ const AboutMe = () => {
       <div className="lg:h-[90%] md:h-[50%] sm:h-max w-full relative flex justify-center items-center overflow-hidden lg:mt-5 sm:mt-3">
         <div className="lg:h-full flex justify-center relative after:bg-blue-500 after:absolute lg:after:bottom-0 md:after:bottom-[12.5%] lg:after:left-0 md:after:left-[12.5%] lg:after:h-[87%] md:after:h-[70%] lg:after:w-[83%] md:after:w-[64%] after:-z-[2] container-cover1 overflow-hidden sm:hidden md:inline">
           <img
-            src={COVER_1}
+            src={COVER1}
             alt=""
             className="h-full z-10 w-full md:scale-75 lg:scale-100"
           />
