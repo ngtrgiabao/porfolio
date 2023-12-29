@@ -1,4 +1,4 @@
-import { ROBOT_WITH_BG } from "../assets/imges";
+import { ROBOT_WITH_BG } from "../assets/images";
 import MYWEBSKILL from "../assets/my-web-skill.svg";
 import ProgrammingIcon from "./ProgrammingIcon";
 import {

@@ -1,4 +1,4 @@
-import {LOGO, COVER1} from "../assets/imges"
+import { LOGO, COVER1 } from "../assets/images"
 
 const AboutMe = () => {
   return (

@@ -1,4 +1,4 @@
-import { LOGO, AVATAR } from "../assets/imges";
+import { LOGO, AVATAR } from "../assets/images";
 
 import Banner from "../components/Banner";
 import Navbar from "../components/common/Navbar";
