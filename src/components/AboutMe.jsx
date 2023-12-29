@@ -1,4 +1,4 @@
-import { LOGO, COVER1 } from "../assets/images"
+import { Y_WHITE, COVER1 } from "../assets/images"
 
 const AboutMe = () => {
   return (
@@ -15,7 +15,7 @@ const AboutMe = () => {
           />
           <span className="absolute bg-blue-200 z-10 lg:left-4 md:left-24 md:top-16 w-7 h-10"></span>
           <div className="absolute lg:w-3/12 md:w-2/12 opacity-20 -z-[1] lg:left-5 md:left-16 lg:top-[23%] md:top-[32%]">
-            <img src={LOGO} alt="" />
+            <img src={Y_WHITE} alt="" />
           </div>
           <span className="absolute border-4 border-white z-10 lg:left-10 md:left-20 top-1/2 lg:w-28 md:w-20 lg:h-28 md:h-20"></span>
           <span className="absolute bg-blue-200 z-10 lg:right-10 md:right-16 lg:bottom-16 md:bottom-24 w-32 h-7"></span>
